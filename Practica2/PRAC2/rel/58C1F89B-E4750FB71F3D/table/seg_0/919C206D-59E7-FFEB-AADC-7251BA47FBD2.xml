@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="919C206D-59E7-FFEB-AADC-7251BA47FBD2" schemaObject="67F5AB1B-ED95-470F-2E2A-19AB5D2637D0" name="SAVINGS_ACCOUNT">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>SAVINGS_ACCOUNT</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTERES_RATE" id="BFCCE157-F668-1BF2-25EB-2A84022CA5C8">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>SAVINGS_ACCOUNT</sourceObjSchema>
+<sourceObjName>INTERES_RATE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECKING_RATE" id="88E8C515-EE24-DD75-8455-F177D066A214">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>SAVINGS_ACCOUNT</sourceObjSchema>
+<sourceObjName>CHECKING_RATE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_NUMBER" id="77BE1A19-452E-341D-3304-8EC732BCA816">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>SAVINGS_ACCOUNT</sourceObjSchema>
+<sourceObjName>ACCOUNT_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F2FB783-E31E-5190-47DD-242B00A56FB4" referredColumn="20E9A71C-D573-B2BB-82B8-0DA3F8972BEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CFCB901-2A00-E41A-1885-3E8F85F785E9" name="SAVING_ACCOUNT_ID_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77BE1A19-452E-341D-3304-8EC732BCA816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

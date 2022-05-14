@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MANAGER" directorySegmentName="seg_0" id="F7164C48-67B0-EB4E-2A4E-94C6BCDE8F94">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>E9184076-743C-3583-3D03-B7E16761B21D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>726A7FF2-44B5-4FD8-0D2D-D963CB5BE1D8</segment>
+<tableSpace>910FD2B9-0092-8AEC-D4D7-4CA875CF01E9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LAST_NAME" id="203F0418-D44F-08DE-2F1E-5F6774C06DD8">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MANAGER" id="DE53CA9A-C890-F3DC-0CBA-FFEE4BB356AF">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="E22DDCEC-FE36-2CE7-29A5-E130B19DB65B">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MANAGER_ID_PK" id="BCE5AC2C-714A-12E6-5506-2FE176ADDDE9">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>E9184076-743C-3583-3D03-B7E16761B21D</schemaObject>
+<segment>A2A7D3FE-1929-E9F3-AC5A-20A089DD4CB4</segment>
+<tableSpace>910FD2B9-0092-8AEC-D4D7-4CA875CF01E9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MANAGER_ID_PK" id="38F3E78C-D84F-097B-E10D-0B5DC00CF2D6">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<segment>A2A7D3FE-1929-E9F3-AC5A-20A089DD4CB4</segment>
+<tableSpace>910FD2B9-0092-8AEC-D4D7-4CA875CF01E9</tableSpace>
+<existingIndex>BCE5AC2C-714A-12E6-5506-2FE176ADDDE9</existingIndex>
+<indexSegment>A2A7D3FE-1929-E9F3-AC5A-20A089DD4CB4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9B6091C-83B6-7F1D-2B7E-83D6469F8A9B" schemaObject="0FF15300-D3B8-0A96-D9DF-12704EEB47CC" name="PPRODUCT_SUPPLIERS">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>PPRODUCT_SUPPLIERS</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_CODE" id="2EEA25BA-E5B6-2243-23A2-3EA912224D91">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PPRODUCT_SUPPLIERS</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PRODUCT_CODE_SUPPLIERS_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="D7554BD8-7B20-9B88-A6F8-4E7F83112D06" referredColumn="6D281C0B-ECBB-3FA3-F1D7-5201582A6C64"/>
+</associations>
+</Column>
+<Column name="SUPPLIER_CODE" id="5E122ED7-1F2E-B749-FF0A-EAD735577B72">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PPRODUCT_SUPPLIERS</sourceObjSchema>
+<sourceObjName>SUPPLIER_CODE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>SUPPLIER_CODE_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F06DAF40-4863-2691-D0A4-B14B72DA6A4F" referredColumn="6860341A-EA51-7B81-3470-1E629D62F88A"/>
+</associations>
+</Column>
+<Column name="SUPPLIED_FROM_DATE" id="C2484728-D35A-9693-4FB7-5886FA9F5FC4">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PPRODUCT_SUPPLIERS</sourceObjSchema>
+<sourceObjName>SUPPLIED_FROM_DATE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIED_TO_DATE" id="0D43BF29-9B6D-919B-7B0E-A83B7CB9EB72">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PPRODUCT_SUPPLIERS</sourceObjSchema>
+<sourceObjName>SUPPLIED_TO_DATE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="182672B5-69BC-218E-E9EA-29999171A21E" name="PRODUCT_CODE_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EEA25BA-E5B6-2243-23A2-3EA912224D91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E74198F-B981-66F1-D768-77E85E145E13" name="SUPPLIER_CODE_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E122ED7-1F2E-B749-FF0A-EAD735577B72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

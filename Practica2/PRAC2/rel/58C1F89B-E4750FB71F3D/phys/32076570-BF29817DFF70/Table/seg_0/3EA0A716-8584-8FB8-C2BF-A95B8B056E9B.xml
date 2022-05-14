@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LOAN" directorySegmentName="seg_0" id="3EA0A716-8584-8FB8-C2BF-A95B8B056E9B">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>67F5AB1B-ED95-470F-2E2A-19AB5D2637D0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6BD947A5-4006-99E7-EA73-B8CD21EF0B90</segment>
+<tableSpace>4F1B645A-DB11-C0A8-C45F-091867054954</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOAN_NUMBER" id="3D349DDF-4300-44B3-59E9-2BB5D8F3E4E5">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOAN_ID" id="4E24609A-B95E-35B5-112F-1B134FD9BFA3">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="9168DB6A-22D5-EB33-63A5-1D6C2A3D7BC4">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOAN_ID_PK" id="311B483F-37C5-248D-CF65-975B1660D07F">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>67F5AB1B-ED95-470F-2E2A-19AB5D2637D0</schemaObject>
+<segment>D9F23E7C-66B6-4904-7039-3F9FB788B6C6</segment>
+<tableSpace>4F1B645A-DB11-C0A8-C45F-091867054954</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOAN_ID_PK" id="5E4165AE-C75C-E65A-6BB9-DC6B30C3C530">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<segment>D9F23E7C-66B6-4904-7039-3F9FB788B6C6</segment>
+<tableSpace>4F1B645A-DB11-C0A8-C45F-091867054954</tableSpace>
+<existingIndex>311B483F-37C5-248D-CF65-975B1660D07F</existingIndex>
+<indexSegment>D9F23E7C-66B6-4904-7039-3F9FB788B6C6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

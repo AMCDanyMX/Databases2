@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ID_MANAGER_FK" directorySegmentName="seg_0" id="3AEC94BC-F785-048C-E83A-688C52116CC7">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>764BC74A-0A4E-C5D2-2650-29DB8805A99E</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<sourcePk>26BA0084-A4E5-6FCD-63BA-82C61FD3B38C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD8C0D1D-4148-6A28-80E5-7603329A4317</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5201D430-72E7-980C-53BB-A60FE77AB7A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

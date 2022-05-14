@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PPRODUCT_SUPPLIERS" directorySegmentName="seg_0" id="B9B6091C-83B6-7F1D-2B7E-83D6469F8A9B">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>0FF15300-D3B8-0A96-D9DF-12704EEB47CC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C368E11D-6A31-C61B-BF6E-6E258BDFD2BA</segment>
+<tableSpace>F06C2FB8-9651-0283-089F-DEC18C170F1C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUPPLIED_TO_DATE" id="0D43BF29-9B6D-919B-7B0E-A83B7CB9EB72">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_CODE" id="2EEA25BA-E5B6-2243-23A2-3EA912224D91">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_CODE" id="5E122ED7-1F2E-B749-FF0A-EAD735577B72">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIED_FROM_DATE" id="C2484728-D35A-9693-4FB7-5886FA9F5FC4">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRODUCT_CODE_FK" id="182672B5-69BC-218E-E9EA-29999171A21E">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SUPPLIER_CODE_FK" id="3E74198F-B981-66F1-D768-77E85E145E13">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

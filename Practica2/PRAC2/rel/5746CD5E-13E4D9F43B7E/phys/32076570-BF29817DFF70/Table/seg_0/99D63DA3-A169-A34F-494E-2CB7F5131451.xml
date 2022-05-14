@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LOAN_PAYMENT" directorySegmentName="seg_0" id="99D63DA3-A169-A34F-494E-2CB7F5131451">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>63CB3475-7BBC-10D2-FC9C-C2371412D42E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>76AAA65E-594C-DCD7-1BFB-20A4188E1A89</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOAN_ID" id="F278EBEC-E2F1-62C7-5448-1B5777844072">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_ID" id="F6B24FB1-1F6A-9576-6084-14F2290FB53B">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LOAN_ID_PAYMENT_FK" id="B0852341-2DA5-8B07-438A-B6FC2E3185E0">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAYMENT_ID_PAYMENT_FK" id="B3DB92FD-C8C9-9CEB-7E24-42352DE28704">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

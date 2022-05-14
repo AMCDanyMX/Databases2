@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ACCOUNT_BRANCH" directorySegmentName="seg_0" id="66569E9C-8014-CB7E-51D4-02240EDEEA0C">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:29 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>63CB3475-7BBC-10D2-FC9C-C2371412D42E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>76AAA65E-594C-DCD7-1BFB-20A4188E1A89</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ACCOUNT_NUMBER" id="52064938-0271-1157-5689-9824817AF9D1">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:29 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BRANCH_ID" id="5BD71E71-1587-6C6B-A14D-3C0107A0DECE">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:29 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

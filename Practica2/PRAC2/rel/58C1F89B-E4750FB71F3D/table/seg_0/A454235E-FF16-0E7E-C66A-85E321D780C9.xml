@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A454235E-FF16-0E7E-C66A-85E321D780C9" schemaObject="67F5AB1B-ED95-470F-2E2A-19AB5D2637D0" name="PAYMENT">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>PAYMENT</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAYMENT_ID" id="A86FABC7-D7AF-B134-16CE-C0B4FA85118E">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PAYMENT</sourceObjSchema>
+<sourceObjName>PAYMENT_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_NUMBER" id="4E9ECFB0-E478-8790-7D54-DDC6F726A5AB">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PAYMENT</sourceObjSchema>
+<sourceObjName>PAYMENT_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_DATE" id="35BCAF27-B7F7-9E74-9C02-9DC4AE4ED532">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PAYMENT</sourceObjSchema>
+<sourceObjName>PAYMENT_DATE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_ACCOUNT" id="528BA21C-8E24-FBC3-BA60-D3057CC6F9FA">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PAYMENT</sourceObjSchema>
+<sourceObjName>PAYMENT_ACCOUNT</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E37F5F74-2EF4-5BD0-32BD-EB7897018690" name="PAYMENT_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>PAYMENT_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A86FABC7-D7AF-B134-16CE-C0B4FA85118E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A3216D2-BE43-F222-BF74-8100E8DBD07F" schemaObject="67F5AB1B-ED95-470F-2E2A-19AB5D2637D0" name="PAYMENT_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>PAYMENT_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A86FABC7-D7AF-B134-16CE-C0B4FA85118E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

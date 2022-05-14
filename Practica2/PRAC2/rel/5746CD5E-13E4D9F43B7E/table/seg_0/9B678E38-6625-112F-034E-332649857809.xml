@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B678E38-6625-112F-034E-332649857809" schemaObject="63CB3475-7BBC-10D2-FC9C-C2371412D42E" name="ACCOUNT">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>ACCOUNT</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_NUMBER" id="81A4AC9A-30DA-13E8-3341-DEA5C270EDCC">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>ACCOUNT</sourceObjSchema>
+<sourceObjName>ACCOUNT_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BALANCE" id="7E91E67A-FF32-6CFC-AE9C-7E9AF4857992">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>ACCOUNT</sourceObjSchema>
+<sourceObjName>BALANCE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33D80F1B-2CFD-8DF9-1E20-F4D4291433E3" name="ACCOUNT_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81A4AC9A-30DA-13E8-3341-DEA5C270EDCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70A95AEC-B800-082E-44DC-C988D8D8264C" schemaObject="63CB3475-7BBC-10D2-FC9C-C2371412D42E" name="ACCOUNT_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81A4AC9A-30DA-13E8-3341-DEA5C270EDCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

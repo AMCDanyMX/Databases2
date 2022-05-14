@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D689DDD-15A8-F757-F6D0-3B0404611E47" schemaObject="E9184076-743C-3583-3D03-B7E16761B21D" name="EMPLOYEE">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>EMPLOYEE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="9B0ACB53-DDC4-B67A-DA91-3F4EB5B37E2A">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMPLOYEE_ID_NN</notNullConstraintName>
+</Column>
+<Column name="START_DATE" id="DDDF2EAE-0DF2-9C6F-B4D2-587641617EBC">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION_JOB" id="2B8805E4-6081-B909-FF26-B0524F3813BB">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>DESCRIPTION_JOB</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="2100090C-1FA4-29AF-73AF-0132EA62BFE8">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="C7DE1EA0-39CB-9EF4-AAC2-789F6F597959">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="266E4304-AB89-A4A8-0A3E-E7AEED3B7AA2">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B39057C-D2AF-E377-B536-11FE3BCFC680" name="EMPLOYEE_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B0ACB53-DDC4-B67A-DA91-3F4EB5B37E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50DECF3F-9A5D-1FF9-9559-6663C355DE0D" schemaObject="E9184076-743C-3583-3D03-B7E16761B21D" name="EMPLOYEE_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:01 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B0ACB53-DDC4-B67A-DA91-3F4EB5B37E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

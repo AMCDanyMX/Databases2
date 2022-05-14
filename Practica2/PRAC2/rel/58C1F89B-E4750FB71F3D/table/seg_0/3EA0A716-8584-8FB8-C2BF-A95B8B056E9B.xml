@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EA0A716-8584-8FB8-C2BF-A95B8B056E9B" schemaObject="67F5AB1B-ED95-470F-2E2A-19AB5D2637D0" name="LOAN">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>LOAN</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOAN_ID" id="4E24609A-B95E-35B5-112F-1B134FD9BFA3">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>LOAN</sourceObjSchema>
+<sourceObjName>LOAN_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAN_NUMBER" id="3D349DDF-4300-44B3-59E9-2BB5D8F3E4E5">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>LOAN</sourceObjSchema>
+<sourceObjName>LOAN_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="9168DB6A-22D5-EB33-63A5-1D6C2A3D7BC4">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>LOAN</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E4165AE-C75C-E65A-6BB9-DC6B30C3C530" name="LOAN_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>LOAN_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E24609A-B95E-35B5-112F-1B134FD9BFA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="311B483F-37C5-248D-CF65-975B1660D07F" schemaObject="67F5AB1B-ED95-470F-2E2A-19AB5D2637D0" name="LOAN_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>LOAN_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E24609A-B95E-35B5-112F-1B134FD9BFA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

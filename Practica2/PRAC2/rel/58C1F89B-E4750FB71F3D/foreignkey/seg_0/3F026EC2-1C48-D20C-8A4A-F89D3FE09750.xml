@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F026EC2-1C48-D20C-8A4A-F89D3FE09750" containerWithKeyObject="5933229C-5121-8CFD-31D6-62612FA9451D" localFKIndex="6C721C88-D536-7C46-AB69-C61B601F84EC" name="BRANCH_ID_FK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>BRANCH_ID_FK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<referredTableLongName>AMCDANYMX.BRANCH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3078D6C3-2AEF-AC76-4322-B41A7F348144</referredTableID>
+<keyObject>4BAF1019-EA2F-B9CC-A72B-48F26851D6A0</keyObject>
+<referredKeyID>4BAF1019-EA2F-B9CC-A72B-48F26851D6A0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BRANCH_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

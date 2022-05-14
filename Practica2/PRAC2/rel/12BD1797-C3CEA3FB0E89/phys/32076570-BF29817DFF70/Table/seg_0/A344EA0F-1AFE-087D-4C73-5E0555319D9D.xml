@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TELEPHONE" directorySegmentName="seg_0" id="A344EA0F-1AFE-087D-4C73-5E0555319D9D">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>53C5EEA2-B82D-A19B-6D56-5AC37C8BED21</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1CB45363-A38B-9C47-97FF-FCD0C0231EDB</segment>
+<tableSpace>F9D86746-C3B7-BE79-FC90-65FB230E03A8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FLAG" id="06169CD3-B137-6250-B113-03A442D50972">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BRAND" id="172F2870-42E4-97BB-CFC0-2E970889C0CA">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEPHONE_NUMBER" id="6C21C63B-F1F7-D96D-7B66-DD21DF847E72">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE_CAPACITY" id="7F0EBCBE-5D4A-3C73-717F-BC0F1D1756A8">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVATIION_DATE" id="9784BBA0-D3E4-B7D9-676B-631C94291A6F">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SERIAL_NUMBER" id="E685AD9E-63CC-1138-5412-94EB0026C8C9">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TELEPHONE_PK" id="E4D70FD4-073B-97AE-D6B9-B4DEFA78A907">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>53C5EEA2-B82D-A19B-6D56-5AC37C8BED21</schemaObject>
+<segment>465DB987-D52A-00D4-5CCB-3C6BC903F009</segment>
+<tableSpace>F9D86746-C3B7-BE79-FC90-65FB230E03A8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TELEPHONE_PK" id="AF4C36AC-9C71-0AD3-9873-9DE5EF924A7A">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<segment>465DB987-D52A-00D4-5CCB-3C6BC903F009</segment>
+<tableSpace>F9D86746-C3B7-BE79-FC90-65FB230E03A8</tableSpace>
+<existingIndex>E4D70FD4-073B-97AE-D6B9-B4DEFA78A907</existingIndex>
+<indexSegment>465DB987-D52A-00D4-5CCB-3C6BC903F009</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

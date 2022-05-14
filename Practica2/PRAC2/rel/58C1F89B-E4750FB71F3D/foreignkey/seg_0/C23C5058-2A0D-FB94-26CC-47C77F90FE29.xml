@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C23C5058-2A0D-FB94-26CC-47C77F90FE29" containerWithKeyObject="4F7632F2-BFE6-7349-3C85-C19C4134492C" localFKIndex="39A99E7C-DDA9-E8E2-77DA-B554280D2060" name="LOAN_ID_PAYMENT_FK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>LOAN_ID_PAYMENT_FK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<referredTableLongName>AMCDANYMX.LOAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3EA0A716-8584-8FB8-C2BF-A95B8B056E9B</referredTableID>
+<keyObject>311B483F-37C5-248D-CF65-975B1660D07F</keyObject>
+<referredKeyID>311B483F-37C5-248D-CF65-975B1660D07F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>LOAN_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

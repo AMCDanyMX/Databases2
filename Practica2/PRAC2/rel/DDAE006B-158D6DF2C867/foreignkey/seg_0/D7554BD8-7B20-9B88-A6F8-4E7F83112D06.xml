@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7554BD8-7B20-9B88-A6F8-4E7F83112D06" containerWithKeyObject="B9B6091C-83B6-7F1D-2B7E-83D6469F8A9B" localFKIndex="182672B5-69BC-218E-E9EA-29999171A21E" name="PRODUCT_CODE_FK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE_FK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:51 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<referredTableLongName>AMCDANYMX.PRODUCT_HIERARCHY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DA4565BD-6A4B-0005-4D91-C3C3C7F3A3DF</referredTableID>
+<keyObject>7798F907-834F-EF63-86D8-A0FE21A651AD</keyObject>
+<referredKeyID>7798F907-834F-EF63-86D8-A0FE21A651AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRODUCT_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

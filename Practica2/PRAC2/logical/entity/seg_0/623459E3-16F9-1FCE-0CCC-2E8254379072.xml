@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="623459E3-16F9-1FCE-0CCC-2E8254379072" name="EMPLOYEE">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>7D689DDD-15A8-F757-F6D0-3B0404611E47</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMPLOYEE ID" id="42F8AD07-1E0C-D490-49B3-42F0207B0FF8">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>9B0ACB53-DDC4-B67A-DA91-3F4EB5B37E2A</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START DATE" id="672EA7EB-048A-9569-03B2-8F93C5F7B587">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>DDDF2EAE-0DF2-9C6F-B4D2-587641617EBC</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTION JOB" id="CD67722E-B060-CD0E-8FFC-7D1458DC80EA">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>2B8805E4-6081-B909-FF26-B0524F3813BB</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="3F8BE4D0-A622-6716-774D-945D29C94260">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>2100090C-1FA4-29AF-73AF-0132EA62BFE8</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST NAME" id="9BF7DBBD-29B9-30F0-5046-F751E0C0B1B4">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>C7DE1EA0-39CB-9EF4-AAC2-789F6F597959</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST NAME" id="FB72D098-C593-0CF3-0D43-FD2E8CB1188D">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>266E4304-AB89-A4A8-0A3E-E7AEED3B7AA2</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E3C37A6-6723-D868-6236-9CE6DA9F9EE2" name="EMPLOYEE ID PK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>6B39057C-D2AF-E377-B536-11FE3BCFC680</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42F8AD07-1E0C-D490-49B3-42F0207B0FF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

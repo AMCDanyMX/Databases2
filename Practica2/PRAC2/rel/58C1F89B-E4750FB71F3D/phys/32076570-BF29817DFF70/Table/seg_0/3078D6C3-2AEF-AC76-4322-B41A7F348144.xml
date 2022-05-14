@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BRANCH" directorySegmentName="seg_0" id="3078D6C3-2AEF-AC76-4322-B41A7F348144">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:03 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>67F5AB1B-ED95-470F-2E2A-19AB5D2637D0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6BD947A5-4006-99E7-EA73-B8CD21EF0B90</segment>
+<tableSpace>4F1B645A-DB11-C0A8-C45F-091867054954</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ASSETS" id="74E21E83-0E94-B766-018E-A410AE5E647A">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:03 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BRANCH_ADDRESS" id="AC4E879A-1F53-E3F9-0716-653E9EB53A8B">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:03 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BRANCH_NAME" id="CEED945B-2156-DE24-6A99-D386505167F9">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:03 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BRANCH_ID" id="FA87A81F-FE5E-790A-274E-D476832121CD">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:03 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="BRANCH_ID_PK" id="4BAF1019-EA2F-B9CC-A72B-48F26851D6A0">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:03 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>67F5AB1B-ED95-470F-2E2A-19AB5D2637D0</schemaObject>
+<segment>D9F23E7C-66B6-4904-7039-3F9FB788B6C6</segment>
+<tableSpace>4F1B645A-DB11-C0A8-C45F-091867054954</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BRANCH_ID_PK" id="F5C5DB0F-146B-4B21-90C7-57C73DBABC28">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:03 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<segment>D9F23E7C-66B6-4904-7039-3F9FB788B6C6</segment>
+<tableSpace>4F1B645A-DB11-C0A8-C45F-091867054954</tableSpace>
+<existingIndex>4BAF1019-EA2F-B9CC-A72B-48F26851D6A0</existingIndex>
+<indexSegment>D9F23E7C-66B6-4904-7039-3F9FB788B6C6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

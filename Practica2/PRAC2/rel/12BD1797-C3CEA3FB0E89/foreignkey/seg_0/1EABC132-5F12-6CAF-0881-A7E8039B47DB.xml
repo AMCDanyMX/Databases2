@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EABC132-5F12-6CAF-0881-A7E8039B47DB" containerWithKeyObject="22AE8120-F758-C6A4-6129-5F8F96DEBD42" localFKIndex="BC842DC4-D797-29AA-3222-25017E9EDC40" name="TEL_CUS_FK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>TEL_CUS_FK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<referredTableLongName>AMCDANYMX.TELEPHONE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A344EA0F-1AFE-087D-4C73-5E0555319D9D</referredTableID>
+<keyObject>E4D70FD4-073B-97AE-D6B9-B4DEFA78A907</keyObject>
+<referredKeyID>E4D70FD4-073B-97AE-D6B9-B4DEFA78A907</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TELEPHONE_NUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

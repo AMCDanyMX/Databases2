@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20AD5F42-02A7-4772-6EE3-A9426BA30262" schemaObject="63CB3475-7BBC-10D2-FC9C-C2371412D42E" name="BRANCH">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>BRANCH</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:41 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BRANCH_ID" id="357ACABC-415E-0412-6A80-7E7EFAD6B8AF">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>BRANCH_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:41 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRANCH_NAME" id="CDF299E4-9276-1BCC-3257-0EF45BFC7873">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>BRANCH_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:41 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRANCH_ADDRESS" id="A541B398-A179-58E7-81CB-8444133D6E1C">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>BRANCH_ADDRESS</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:41 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSETS" id="8C7DF035-4141-4AD7-7BE1-0B241D79AB54">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>ASSETS</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:41 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>26 BYTE</dataTypeSize>
+<ownDataTypeParameters>26 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABDDD837-F005-D26E-D491-6314D7EB21AC" name="BRANCH_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>BRANCH_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:41 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="357ACABC-415E-0412-6A80-7E7EFAD6B8AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="585AE79B-5476-00EA-E86C-AD537DAA7258" schemaObject="63CB3475-7BBC-10D2-FC9C-C2371412D42E" name="BRANCH_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>BRANCH_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:41 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="357ACABC-415E-0412-6A80-7E7EFAD6B8AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

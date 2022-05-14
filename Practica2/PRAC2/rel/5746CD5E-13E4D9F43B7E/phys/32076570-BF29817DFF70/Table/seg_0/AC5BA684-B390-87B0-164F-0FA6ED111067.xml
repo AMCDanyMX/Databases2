@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DEPOSITOR" directorySegmentName="seg_0" id="AC5BA684-B390-87B0-164F-0FA6ED111067">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:11 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>63CB3475-7BBC-10D2-FC9C-C2371412D42E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>76AAA65E-594C-DCD7-1BFB-20A4188E1A89</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ACCOUNT_NUMBER" id="167B0275-E0A6-7195-4116-E777B46C03F0">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:11 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCESS_DATE" id="62AB9AC2-7993-D77D-0015-86AE9EC39E4F">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:11 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ID" id="EE3EF371-3C0F-1EEF-C3EF-56630874B607">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:11 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CUSTOMER_DEPOSITOR_ID_FK" id="1646A9BC-E481-D992-AD52-0607AB2C0485">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:11 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACCOUNT_DEPOSITOR_ID_FK" id="E1EF3058-5F03-F2B1-93AA-1FE8312960F2">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:11 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

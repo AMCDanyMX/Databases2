@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BDFBF82-691A-4978-1FAF-25CB7D9EC790" schemaObject="E9184076-743C-3583-3D03-B7E16761B21D" name="JOB">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>JOB</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:12 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_JOB" id="B1B2B78C-B2E9-B73E-4BBC-4CF1EF5F4889">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>JOB</sourceObjSchema>
+<sourceObjName>ID_JOB</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:12 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_JOB__NN</notNullConstraintName>
+</Column>
+<Column name="ID_EMPLOYEE" id="ED0FFC9E-3DE0-218A-014C-AF6129B896C6">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>JOB</sourceObjSchema>
+<sourceObjName>ID_EMPLOYEE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:12 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_EMPLOYEE_NN</notNullConstraintName>
+</Column>
+<Column name="JOB_NAME" id="3F8034CA-F251-616C-D033-E2B5A153B742">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>JOB</sourceObjSchema>
+<sourceObjName>JOB_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:12 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_DESCRIPTION" id="5B34A983-0080-60B3-1F3C-DDF443CE22AA">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>JOB</sourceObjSchema>
+<sourceObjName>JOB_DESCRIPTION</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:12 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97C34F85-3D3C-FB71-3665-37F0076469BC" name="JOB_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>JOB_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:12 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1B2B78C-B2E9-B73E-4BBC-4CF1EF5F4889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4165F46E-3F56-08AB-F452-59B753732FC4" schemaObject="E9184076-743C-3583-3D03-B7E16761B21D" name="JOB_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>JOB_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:12 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1B2B78C-B2E9-B73E-4BBC-4CF1EF5F4889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

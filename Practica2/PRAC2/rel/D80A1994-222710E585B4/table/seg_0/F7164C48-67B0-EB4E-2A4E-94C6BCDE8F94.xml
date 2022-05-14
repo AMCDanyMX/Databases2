@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7164C48-67B0-EB4E-2A4E-94C6BCDE8F94" schemaObject="E9184076-743C-3583-3D03-B7E16761B21D" name="MANAGER">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>MANAGER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MANAGER" id="DE53CA9A-C890-F3DC-0CBA-FFEE4BB356AF">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>MANAGER</sourceObjSchema>
+<sourceObjName>ID_MANAGER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="E22DDCEC-FE36-2CE7-29A5-E130B19DB65B">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>MANAGER</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="203F0418-D44F-08DE-2F1E-5F6774C06DD8">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>MANAGER</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38F3E78C-D84F-097B-E10D-0B5DC00CF2D6" name="MANAGER_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>MANAGER_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE53CA9A-C890-F3DC-0CBA-FFEE4BB356AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCE5AC2C-714A-12E6-5506-2FE176ADDDE9" schemaObject="E9184076-743C-3583-3D03-B7E16761B21D" name="MANAGER_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>MANAGER_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:05 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE53CA9A-C890-F3DC-0CBA-FFEE4BB356AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

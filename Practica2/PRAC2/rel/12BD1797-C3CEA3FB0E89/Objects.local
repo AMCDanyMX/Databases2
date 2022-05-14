@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="53C5EEA2-B82D-A19B-6D56-5AC37C8BED21" name="AMCDANYMX" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="22AE8120-F758-C6A4-6129-5F8F96DEBD42" name="CUSTOMER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="A344EA0F-1AFE-087D-4C73-5E0555319D9D" name="TELEPHONE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="1EABC132-5F12-6CAF-0881-A7E8039B47DB" name="TEL_CUS_FK" seqName="seg_0" containerID="22AE8120-F758-C6A4-6129-5F8F96DEBD42" refContainerID="A344EA0F-1AFE-087D-4C73-5E0555319D9D" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" propertySourceId="A344EA0F-1AFE-087D-4C73-5E0555319D9D" propertyTargetId="22AE8120-F758-C6A4-6129-5F8F96DEBD42"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

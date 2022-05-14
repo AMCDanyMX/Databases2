@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUPPLIERS" directorySegmentName="seg_0" id="FAEF9950-3ACF-35DF-9835-51B0AC66279C">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>0FF15300-D3B8-0A96-D9DF-12704EEB47CC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C368E11D-6A31-C61B-BF6E-6E258BDFD2BA</segment>
+<tableSpace>F06C2FB8-9651-0283-089F-DEC18C170F1C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUPPLIER_CODE" id="6860341A-EA51-7B81-3470-1E629D62F88A">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_DETAILS" id="9D5B4B74-1A28-23A7-8BFB-DD21036C2766">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME_SUPPLIER" id="A4605099-02D5-6CF4-9C04-612190C86FDD">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY_ADDRESS" id="B8F7D047-0494-E325-E600-52692AC3EF4C">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SUPPLIER_CODE_PK" id="F41BBF33-9B99-3D92-592F-A6EF41DAC7F7">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>0FF15300-D3B8-0A96-D9DF-12704EEB47CC</schemaObject>
+<segment>6B661E71-A029-F724-2132-39F179417E2E</segment>
+<tableSpace>F06C2FB8-9651-0283-089F-DEC18C170F1C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUPPLIER_CODE_PK" id="38320029-3C8C-B236-68C9-ECA9BDDCA3EA">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<segment>6B661E71-A029-F724-2132-39F179417E2E</segment>
+<tableSpace>F06C2FB8-9651-0283-089F-DEC18C170F1C</tableSpace>
+<existingIndex>F41BBF33-9B99-3D92-592F-A6EF41DAC7F7</existingIndex>
+<indexSegment>6B661E71-A029-F724-2132-39F179417E2E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

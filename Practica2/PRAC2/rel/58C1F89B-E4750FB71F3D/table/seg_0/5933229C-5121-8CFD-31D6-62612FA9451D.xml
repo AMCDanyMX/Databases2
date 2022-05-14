@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5933229C-5121-8CFD-31D6-62612FA9451D" schemaObject="67F5AB1B-ED95-470F-2E2A-19AB5D2637D0" name="LOAN_BRANCH">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>LOAN_BRANCH</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:58 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BRANCH_ID" id="BE38393F-C866-F1EA-C1A7-4AA738DDDD5C">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>LOAN_BRANCH</sourceObjSchema>
+<sourceObjName>BRANCH_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F026EC2-1C48-D20C-8A4A-F89D3FE09750" referredColumn="FA87A81F-FE5E-790A-274E-D476832121CD"/>
+</associations>
+</Column>
+<Column name="LOAN_ID" id="1A11B6EC-4957-BDF8-0F56-A50A91FF0F28">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>LOAN_BRANCH</sourceObjSchema>
+<sourceObjName>LOAN_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AB145A5-F62A-E42E-92A3-A3A0BC54A7E5" referredColumn="4E24609A-B95E-35B5-112F-1B134FD9BFA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C721C88-D536-7C46-AB69-C61B601F84EC" name="BRANCH_ID_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE38393F-C866-F1EA-C1A7-4AA738DDDD5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED5CA955-29E9-F223-B0F5-A8E8C32BA9C3" name="LOAN_ID_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A11B6EC-4957-BDF8-0F56-A50A91FF0F28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

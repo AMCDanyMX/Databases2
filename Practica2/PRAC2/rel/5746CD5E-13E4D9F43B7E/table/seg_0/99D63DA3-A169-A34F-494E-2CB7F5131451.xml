@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99D63DA3-A169-A34F-494E-2CB7F5131451" schemaObject="63CB3475-7BBC-10D2-FC9C-C2371412D42E" name="LOAN_PAYMENT">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>LOAN_PAYMENT</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOAN_ID" id="F278EBEC-E2F1-62C7-5448-1B5777844072">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>LOAN_PAYMENT</sourceObjSchema>
+<sourceObjName>LOAN_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC465E9D-68B7-BFAC-95BF-90C016E42275" referredColumn="84182692-63CC-C365-57E7-6F828D113141"/>
+</associations>
+</Column>
+<Column name="PAYMENT_ID" id="F6B24FB1-1F6A-9576-6084-14F2290FB53B">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>LOAN_PAYMENT</sourceObjSchema>
+<sourceObjName>PAYMENT_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E371F267-782E-C83E-0EE9-AF730855337B" referredColumn="44D993AE-615C-9792-9AEF-F59B7017C33F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0852341-2DA5-8B07-438A-B6FC2E3185E0" name="LOAN_ID_PAYMENT_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F278EBEC-E2F1-62C7-5448-1B5777844072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3DB92FD-C8C9-9CEB-7E24-42352DE28704" name="PAYMENT_ID_PAYMENT_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:58:53 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6B24FB1-1F6A-9576-6084-14F2290FB53B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

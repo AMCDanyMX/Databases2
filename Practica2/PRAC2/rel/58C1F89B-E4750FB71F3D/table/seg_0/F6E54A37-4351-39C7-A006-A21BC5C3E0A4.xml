@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6E54A37-4351-39C7-A006-A21BC5C3E0A4" schemaObject="67F5AB1B-ED95-470F-2E2A-19AB5D2637D0" name="DEPOSITOR">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>DEPOSITOR</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:43 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCESS_DATE" id="B6B09426-89C4-C0AD-3940-7AFFCB59F567">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>DEPOSITOR</sourceObjSchema>
+<sourceObjName>ACCESS_DATE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:43 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ID" id="2353940C-1A14-4A19-0174-C7E6AACCDA96">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>DEPOSITOR</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:43 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D08AEEAE-FC9A-9726-6326-EC880CB5F251" referredColumn="0B1621DA-B3DC-1673-9500-480F7E038E87"/>
+</associations>
+</Column>
+<Column name="ACCOUNT_NUMBER" id="8F28BB9F-1F49-77CF-27EE-5B2B05C399B4">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>DEPOSITOR</sourceObjSchema>
+<sourceObjName>ACCOUNT_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:43 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1630FFF4-89AD-EA14-BB58-794A6646312B" referredColumn="20E9A71C-D573-B2BB-82B8-0DA3F8972BEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C4A5F08-AAD2-507C-4FEA-1D46BF324B6F" name="ACCOUNT_DEPOSITOR_ID_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:43 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F28BB9F-1F49-77CF-27EE-5B2B05C399B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F23072A1-EB9C-7E85-FDC7-A2DC8CA8B0B6" name="CUSTOMER_DEPOSITOR_ID_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:43 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2353940C-1A14-4A19-0174-C7E6AACCDA96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

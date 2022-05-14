@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5201D430-72E7-980C-53BB-A60FE77AB7A0" name="BRANCH">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>7334BAF6-FAE9-9A2F-1BA4-524A04409980</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID BRANCH" id="06F219E2-727E-CE90-1D07-43A4E934DDA7">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>31580BE5-2919-A6CA-D4B2-3DD1B15A8870</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME BRANCH" id="85826656-E8AA-6404-7AA5-AC458E00273B">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>787812D6-B97D-D84B-B103-FF811C2BDBDE</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID EMPLOYEE" id="EB31B05C-6EF1-9BB2-0D79-6C31443518A5">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>4D4830E8-00C4-79A5-D0D7-526B51F34491</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>42F8AD07-1E0C-D490-49B3-42F0207B0FF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID JOB" id="AEB674A2-60FD-7FC3-7ECC-CB348A56CEE9">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>79192B8B-3A68-1AC1-391B-BA3D7E7553E2</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F0CBE177-E4F7-4CCF-F82B-C887023B6E5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID MANAGER" id="20F06354-BB1B-DE24-CDE9-E813A3D4696B">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>3AEC94BC-F785-048C-E83A-688C52116CC7</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>315BD851-ED69-CFBC-228D-AA21A1E98AB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71E0524E-4B15-23FC-73B3-107BDA340BF0" name="BRANCH ID PK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>565DBF98-470B-840A-3147-49D35E502BA0</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06F219E2-727E-CE90-1D07-43A4E934DDA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

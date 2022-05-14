@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22AE8120-F758-C6A4-6129-5F8F96DEBD42" schemaObject="53C5EEA2-B82D-A19B-6D56-5AC37C8BED21" name="CUSTOMER">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_NUMBER" id="8908A813-9AAB-6141-7605-5DB87BEA22C7">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_NAME" id="A539AB14-3E84-40A1-65C6-EC77E858D0C6">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CUSTOMER_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="LAST_NAME" id="57C7B2E5-F21A-33CF-32A7-279E3FB99537">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>LAST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="DATE_BIRTHDAY" id="9170DE03-353A-D5A4-04C3-C486CF9CEECB">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>DATE_BIRTHDAY</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ADDRESS" id="D371AB0E-D541-DEBD-A372-7B9F5455C633">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_ADDRESS</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_RFC" id="B9300245-363B-DF98-DC3E-1ED6CB70C685">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_RFC</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 BYTE</dataTypeSize>
+<ownDataTypeParameters>18 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CUSTOMER_RFC_NN</notNullConstraintName>
+</Column>
+<Column name="TELEPHONE_NUMBER" id="EB4DA851-2377-1816-C170-FBFECAE82659">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>TELEPHONE_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EABC132-5F12-6CAF-0881-A7E8039B47DB" referredColumn="6C21C63B-F1F7-D96D-7B66-DD21DF847E72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A383048-FD11-DE23-C990-7D93EC5F0A47" name="CUSTOMER_NUMBER_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>CUSTOMER_NUMBER_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8908A813-9AAB-6141-7605-5DB87BEA22C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F774B35-50E7-D6D2-05B1-AACCEE005587" schemaObject="53C5EEA2-B82D-A19B-6D56-5AC37C8BED21" name="CUSTOMER_NUMBER_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>CUSTOMER_NUMBER_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8908A813-9AAB-6141-7605-5DB87BEA22C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC842DC4-D797-29AA-3222-25017E9EDC40" name="TEL_CUS_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 19:00:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB4DA851-2377-1816-C170-FBFECAE82659"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

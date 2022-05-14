@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD8C0D1D-4148-6A28-80E5-7603329A4317" name="MANAGER">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>F7164C48-67B0-EB4E-2A4E-94C6BCDE8F94</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID MANAGER" id="315BD851-ED69-CFBC-228D-AA21A1E98AB9">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>DE53CA9A-C890-F3DC-0CBA-FFEE4BB356AF</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST NAME" id="B45D0EEA-CCAD-3B8A-CC1A-C89FDD38D454">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>E22DDCEC-FE36-2CE7-29A5-E130B19DB65B</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST NAME" id="336AD1CD-07EF-62A5-95B5-094F4D0EA1C0">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>203F0418-D44F-08DE-2F1E-5F6774C06DD8</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26BA0084-A4E5-6FCD-63BA-82C61FD3B38C" name="MANAGER ID PK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:18:24 UTC</createdTime>
+<generatorID>38F3E78C-D84F-097B-E10D-0B5DC00CF2D6</generatorID>
+<ownerDesignName>PRAC2</ownerDesignName>
+<engineerTo>
+<item key="D80A1994-34EC-4DDF-AFFF-222710E585B4" value="true"/>
+<item key="58C1F89B-A78B-FA62-4B7B-E4750FB71F3D" value="true"/>
+<item key="DDAE006B-DB4B-C3F7-06A3-158D6DF2C867" value="true"/>
+<item key="12BD1797-0C2C-05AD-E364-C3CEA3FB0E89" value="true"/>
+<item key="5746CD5E-FFE6-0565-5188-13E4D9F43B7E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>315BD851-ED69-CFBC-228D-AA21A1E98AB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

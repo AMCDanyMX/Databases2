@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SAVINGS_ACCOUNT" directorySegmentName="seg_0" id="919C206D-59E7-FFEB-AADC-7251BA47FBD2">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>67F5AB1B-ED95-470F-2E2A-19AB5D2637D0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6BD947A5-4006-99E7-EA73-B8CD21EF0B90</segment>
+<tableSpace>4F1B645A-DB11-C0A8-C45F-091867054954</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ACCOUNT_NUMBER" id="77BE1A19-452E-341D-3304-8EC732BCA816">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHECKING_RATE" id="88E8C515-EE24-DD75-8455-F177D066A214">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERES_RATE" id="BFCCE157-F668-1BF2-25EB-2A84022CA5C8">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SAVING_ACCOUNT_ID_FK" id="2CFCB901-2A00-E41A-1885-3E8F85F785E9">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:03:20 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

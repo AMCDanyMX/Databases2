@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAEF9950-3ACF-35DF-9835-51B0AC66279C" schemaObject="0FF15300-D3B8-0A96-D9DF-12704EEB47CC" name="SUPPLIERS">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>SUPPLIERS</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPPLIER_CODE" id="6860341A-EA51-7B81-3470-1E629D62F88A">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>SUPPLIERS</sourceObjSchema>
+<sourceObjName>SUPPLIER_CODE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_DETAILS" id="9D5B4B74-1A28-23A7-8BFB-DD21036C2766">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>SUPPLIERS</sourceObjSchema>
+<sourceObjName>SUPPLIER_DETAILS</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME_SUPPLIER" id="A4605099-02D5-6CF4-9C04-612190C86FDD">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>SUPPLIERS</sourceObjSchema>
+<sourceObjName>NAME_SUPPLIER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY_ADDRESS" id="B8F7D047-0494-E325-E600-52692AC3EF4C">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>SUPPLIERS</sourceObjSchema>
+<sourceObjName>CITY_ADDRESS</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38320029-3C8C-B236-68C9-ECA9BDDCA3EA" name="SUPPLIER_CODE_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>SUPPLIER_CODE_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6860341A-EA51-7B81-3470-1E629D62F88A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F41BBF33-9B99-3D92-592F-A6EF41DAC7F7" schemaObject="0FF15300-D3B8-0A96-D9DF-12704EEB47CC" name="SUPPLIER_CODE_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>SUPPLIER_CODE_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:04:04 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6860341A-EA51-7B81-3470-1E629D62F88A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

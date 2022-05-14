@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7334BAF6-FAE9-9A2F-1BA4-524A04409980" schemaObject="E9184076-743C-3583-3D03-B7E16761B21D" name="BRANCH">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>BRANCH</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_BRANCH" id="31580BE5-2919-A6CA-D4B2-3DD1B15A8870">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>ID_BRANCH</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME_BRANCH" id="787812D6-B97D-D84B-B103-FF811C2BDBDE">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>NAME_BRANCH</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EMPLOYEE" id="C7776C82-4583-F325-40A8-BAD77E2E3D22">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>ID_EMPLOYEE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04DC352A-0800-8515-4AED-9A6B87D1DE0B" referredColumn="9B0ACB53-DDC4-B67A-DA91-3F4EB5B37E2A"/>
+</associations>
+</Column>
+<Column name="ID_JOB" id="7F5429E2-CB5B-F357-E889-47B9E25E7874">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>ID_JOB</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A95154CD-97AA-43E8-0BA1-9ECDFC388D41" referredColumn="B1B2B78C-B2E9-B73E-4BBC-4CF1EF5F4889"/>
+</associations>
+</Column>
+<Column name="ID_MANAGER" id="ADBCCD54-9829-053B-F83B-A213D2F0C71A">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>BRANCH</sourceObjSchema>
+<sourceObjName>ID_MANAGER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="764BC74A-0A4E-C5D2-2650-29DB8805A99E" referredColumn="DE53CA9A-C890-F3DC-0CBA-FFEE4BB356AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="565DBF98-470B-840A-3147-49D35E502BA0" name="BRANCH_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>BRANCH_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31580BE5-2919-A6CA-D4B2-3DD1B15A8870"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1DFDB17-2813-0856-82EB-83C5CA1BA375" schemaObject="E9184076-743C-3583-3D03-B7E16761B21D" name="BRANCH_ID_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>BRANCH_ID_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31580BE5-2919-A6CA-D4B2-3DD1B15A8870"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D2D6BB1-EA48-C587-75D6-34B0BA414EDC" name="ID_EMPLOYEE_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7776C82-4583-F325-40A8-BAD77E2E3D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="447CF0F7-908F-7585-B8FA-455454286E05" name="ID_JOB_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F5429E2-CB5B-F357-E889-47B9E25E7874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69D4A59B-C3C5-9448-1231-F698CAF2EBF7" name="ID_MANAGER_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 01:12:19 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADBCCD54-9829-053B-F83B-A213D2F0C71A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

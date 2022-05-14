@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PRAC2" id="AB69FF4C-E611-DD3E-8D76-4771C2514465" version="3.5">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:43 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AB69FF4C-E611-DD3E-8D76-4771C2514465</designId>
+</OSDM_Design>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="AMCDANYMX" directorySegmentName="seg_0" id="FD38F1C4-EF03-0650-D0EB-DCADD396EBB4">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjName>AMCDANYMX</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>63CB3475-7BBC-10D2-FC9C-C2371412D42E</schemaObject>
+<defTableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</defTableSpace>
+<privileges>UNLIMITED TABLESPACE, CREATE VIEW</privileges>
+</UserOraclev10g>

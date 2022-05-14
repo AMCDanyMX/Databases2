@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA4565BD-6A4B-0005-4D91-C3C3C7F3A3DF" schemaObject="0FF15300-D3B8-0A96-D9DF-12704EEB47CC" name="PRODUCT_HIERARCHY">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>PRODUCT_HIERARCHY</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_CODE" id="6D281C0B-ECBB-3FA3-F1D7-5201582A6C64">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PRODUCT_HIERARCHY</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PRODUCT_CODE_NN</notNullConstraintName>
+</Column>
+<Column name="PARENT_PRODUCT_CODE" id="F5B615E8-1964-D7BF-5474-C8C0B7A4F8AB">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PRODUCT_HIERARCHY</sourceObjSchema>
+<sourceObjName>PARENT_PRODUCT_CODE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PARENT_PRODUCT_CODE_NN</notNullConstraintName>
+</Column>
+<Column name="PRODUCT_NAME" id="6D4ACFAB-C04C-CEB7-6E47-88588D048573">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PRODUCT_HIERARCHY</sourceObjSchema>
+<sourceObjName>PRODUCT_NAME</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_DESCRIPTION" id="D2B0A0CC-4159-43F4-6337-C1CE7F17F255">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PRODUCT_HIERARCHY</sourceObjSchema>
+<sourceObjName>PRODUCT_DESCRIPTION</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT_REQUIRED" id="362C01CA-D3F3-F436-0ADF-3AC15875CD81">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>PRODUCT_HIERARCHY</sourceObjSchema>
+<sourceObjName>AMOUNT_REQUIRED</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7798F907-834F-EF63-86D8-A0FE21A651AD" name="PRODUCT_CODE_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D281C0B-ECBB-3FA3-F1D7-5201582A6C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1967B74B-FDBE-EB22-2833-7569969925FE" schemaObject="0FF15300-D3B8-0A96-D9DF-12704EEB47CC" name="PRODUCT_CODE_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 23:03:59 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D281C0B-ECBB-3FA3-F1D7-5201582A6C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

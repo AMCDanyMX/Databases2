@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ACCOUNT" directorySegmentName="seg_0" id="9B678E38-6625-112F-034E-332649857809">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>63CB3475-7BBC-10D2-FC9C-C2371412D42E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>76AAA65E-594C-DCD7-1BFB-20A4188E1A89</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BALANCE" id="7E91E67A-FF32-6CFC-AE9C-7E9AF4857992">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_NUMBER" id="81A4AC9A-30DA-13E8-3341-DEA5C270EDCC">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACCOUNT_ID_PK" id="70A95AEC-B800-082E-44DC-C988D8D8264C">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>63CB3475-7BBC-10D2-FC9C-C2371412D42E</schemaObject>
+<segment>C3F3DA75-2C48-0BE6-210C-BBD6EED6FBE5</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACCOUNT_ID_PK" id="33D80F1B-2CFD-8DF9-1E20-F4D4291433E3">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:57:24 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<segment>C3F3DA75-2C48-0BE6-210C-BBD6EED6FBE5</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+<existingIndex>70A95AEC-B800-082E-44DC-C988D8D8264C</existingIndex>
+<indexSegment>C3F3DA75-2C48-0BE6-210C-BBD6EED6FBE5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

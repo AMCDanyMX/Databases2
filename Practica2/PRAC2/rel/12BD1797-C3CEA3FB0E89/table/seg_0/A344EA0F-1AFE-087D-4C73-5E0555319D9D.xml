@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A344EA0F-1AFE-087D-4C73-5E0555319D9D" schemaObject="53C5EEA2-B82D-A19B-6D56-5AC37C8BED21" name="TELEPHONE">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>TELEPHONE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TELEPHONE_NUMBER" id="6C21C63B-F1F7-D96D-7B66-DD21DF847E72">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>TELEPHONE</sourceObjSchema>
+<sourceObjName>TELEPHONE_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVATIION_DATE" id="9784BBA0-D3E4-B7D9-676B-631C94291A6F">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>TELEPHONE</sourceObjSchema>
+<sourceObjName>ACTIVATIION_DATE</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLAG" id="06169CD3-B137-6250-B113-03A442D50972">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>TELEPHONE</sourceObjSchema>
+<sourceObjName>FLAG</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRAND" id="172F2870-42E4-97BB-CFC0-2E970889C0CA">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>TELEPHONE</sourceObjSchema>
+<sourceObjName>BRAND</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_CAPACITY" id="7F0EBCBE-5D4A-3C73-717F-BC0F1D1756A8">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>TELEPHONE</sourceObjSchema>
+<sourceObjName>PHONE_CAPACITY</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIAL_NUMBER" id="E685AD9E-63CC-1138-5412-94EB0026C8C9">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>TELEPHONE</sourceObjSchema>
+<sourceObjName>SERIAL_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF4C36AC-9C71-0AD3-9873-9DE5EF924A7A" name="TELEPHONE_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>TELEPHONE_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C21C63B-F1F7-D96D-7B66-DD21DF847E72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4D70FD4-073B-97AE-D6B9-B4DEFA78A907" schemaObject="53C5EEA2-B82D-A19B-6D56-5AC37C8BED21" name="TELEPHONE_PK">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>TELEPHONE_PK</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-27 18:59:55 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C21C63B-F1F7-D96D-7B66-DD21DF847E72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

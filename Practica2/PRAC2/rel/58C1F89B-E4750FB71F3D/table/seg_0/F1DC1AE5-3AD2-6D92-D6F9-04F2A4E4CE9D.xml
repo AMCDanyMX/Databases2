@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1DC1AE5-3AD2-6D92-D6F9-04F2A4E4CE9D" schemaObject="67F5AB1B-ED95-470F-2E2A-19AB5D2637D0" name="CHECKING_ACCOUNT">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>AMCDANYMX</sourceObjSchema>
+<sourceObjName>CHECKING_ACCOUNT</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OVERDFRAFT_AMOUNT" id="A01C05B6-E1DC-FD02-F7BC-13F91FEFCBF8">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CHECKING_ACCOUNT</sourceObjSchema>
+<sourceObjName>OVERDFRAFT_AMOUNT</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_NUMBER" id="0A3B1661-14DA-495B-E70C-2BD519FBB2AF">
+<sourceConnName>LSBD2</sourceConnName>
+<sourceObjSchema>CHECKING_ACCOUNT</sourceObjSchema>
+<sourceObjName>ACCOUNT_NUMBER</sourceObjName>
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACF39934-8006-18AD-5133-A15823D1510E" referredColumn="20E9A71C-D573-B2BB-82B8-0DA3F8972BEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90785A4B-F563-9165-AF06-08313EDBC140" name="CHECKING_ACCOUNT_ID_FK">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 03:02:09 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A3B1661-14DA-495B-E70C-2BD519FBB2AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

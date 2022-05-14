@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAYMENT" directorySegmentName="seg_0" id="397635FE-6A67-CD9E-7872-46FCACE40E56">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>63CB3475-7BBC-10D2-FC9C-C2371412D42E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>76AAA65E-594C-DCD7-1BFB-20A4188E1A89</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PAYMENT_ACCOUNT" id="2075A6A9-1DB4-EE7B-9B5A-0150D4A37143">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_NUMBER" id="3F25ECF9-E669-BFFE-5B5B-41D68838ACEC">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_ID" id="44D993AE-615C-9792-9AEF-F59B7017C33F">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_DATE" id="C558CD0B-D36F-D52D-3334-9B3B77008BA0">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PAYMENT_ID_PK" id="AA9E4EBB-B0EE-B569-5153-D55A0E7D7740">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<schemaObject>63CB3475-7BBC-10D2-FC9C-C2371412D42E</schemaObject>
+<segment>C3F3DA75-2C48-0BE6-210C-BBD6EED6FBE5</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAYMENT_ID_PK" id="25FAFFB8-4963-C3C5-5DB8-786B18B464C5">
+<createdBy>dany_</createdBy>
+<createdTime>2021-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>PRAC2</ownerDesignName>
+<segment>C3F3DA75-2C48-0BE6-210C-BBD6EED6FBE5</segment>
+<tableSpace>790281B4-72C2-40E4-7880-44CAC91C757E</tableSpace>
+<existingIndex>AA9E4EBB-B0EE-B569-5153-D55A0E7D7740</existingIndex>
+<indexSegment>C3F3DA75-2C48-0BE6-210C-BBD6EED6FBE5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
